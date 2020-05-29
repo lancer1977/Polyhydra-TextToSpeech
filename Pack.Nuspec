@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>PolyhydraGames.TextToSpeech</id>
+    <version>1.0.2</version>
+    <authors>Polyhydra Games</authors>
+    <owners>Polyhydra Games</owners>
+    <!-- 
+      <licenseUrl>http://LICENSE_URL_HERE_OR_DELETE_THIS_LINE</licenseUrl>
+      <projectUrl>http://PROJECT_URL_HERE_OR_DELETE_THIS_LINE</projectUrl>
+      <iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>
+    -->
+     
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>PolyhydraGames Text To Speech Plugin</description> 
+    <copyright>Copyright 2018</copyright>
+    <tags>PolyhydraGames WPF Clipboard</tags>
+    <releaseNotes>
+
+      1.0.0 Initial Package
+      1.0.2 Initial Package
+    </releaseNotes>
+ <licenseUrl >https://opensource.org/licenses/MIT</licenseUrl>
+ <dependencies>  
+</dependencies>
+  </metadata>
+    <files>  
+      <file src=".\TextToSpeech.Core\bin\Release\netstandard2.0\PolyhydraGames.TextToSpeech.Core.dll" target="lib\netstandard1.2" /> 
+       <file src=".\TextToSpeech.Windows\bin\Release\PolyhydraGames.TextToSpeech.*.dll" target="lib\net472" />  
+    </files>
+</package>
